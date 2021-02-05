@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Gamesis 3000",
+    "slug": "project-1",
+    "url": "https://game-inv-app.herokuapp.com/",
+    "image": "./images/GamesisLight.jpg",
+    "description": "Game inventory app that tracks games owned, allows the user to complete a physical inventory that notifies user of missing games, has the ability to toggle between light/dark mode, can link to long play videos on YouTube, and pulls data from RAWG API",
+    "tags": ["JavaScript", "jQuery", "postgreSQL", "CSS", "HTML5"]
+  },
+  {
+    "title": "Cyber Range",
+    "slug": "project-2",
+    "url": "https://codefellows.github.io/cyber-range/",
+    "image": "./images/CyberRange.jpg",
+    "description": "Created a cyber range for Code Fellows to use in their Ops 101 class to give students a taste of different methods of cyber attack they would need to learn to guard against. Three challenges created, a Windows brute force attack, hacking a celebrity account, and a corporate espionage page that shows a confidential product that has not been released yet.",
+    "tags": ["HTML", "CSS", "Base64", "JavaScript"]
+  },
+  {
+    "title": "Trivia Game",
+    "slug": "project-3",
+    "url": "https://grangerdanger.netlify.app/",
+    "image": "./images/grangerDanger.jpg",
+    "description": "One day project, created a Harry Potter trivia game that asks the user 10 random questions (out of a database of 31), each including an image on one side, utilizing a card flip to the other side where the quesiton exists and the player can attempt to answer the questions. Utilized a custom API with Mongo DB that was pre-filled with trivia questions.",
+    "tags": ["JavaScript", "SCSS", "React.js", "Redux", "Mongo DB"]
+  },
+  {
+    "title": "BlackJack API",
+    "slug": "project-4",
+    "url": "https://github.com/tinamyers-401-advanced-javascript/blackjack",
+    "image": "",
+    "description": "Mid-term back end project. Created a back end for a blackjack game that begins with the developer specified number of decks, up to 5 players, and the dealer. The API is the dealer, and after the players choose bets, the hand is dealt. Each player has the opportunity to hit or stand, then passes to the next player automatically, until it gets to the dealer. The dealer will follow specified logic when to hit or stand, and a round of payouts will occur afterward. Mongo DB utilized to keep track of players and account balances. Tests written with jest and jest mongo, and achieved >85% coverage.",
+    "tags": ["JavaScript", "MongoDB", "mongoose", "cors", "express", "superagent", "uuid", "jest", "jest-mongodb"]
+  }
+]
